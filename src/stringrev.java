@@ -9,5 +9,12 @@ public class stringrev {
             c=c+b[i]+' ';
         }
         System.out.println(c);
+        if(a.equals(b))
+        {
+           System.out.println("is palandrom");
+        }
+        else{
+            System.out.println("not palandrom");
+        }
     }
 }
